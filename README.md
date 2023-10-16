@@ -1,2 +1,2 @@
 # Megaminds-IT
-Megaminds Assignment for wer developer
+Megaminds Assignment for web developer
