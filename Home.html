@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Home.css">
+    <title>Nuturmite</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        a:hover{color: aqua;}
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="nuturmite_logo_tranparent.webp" alt="logo">
+        </div>
+
+        <!-- Menu Section -->
+        <div class="menu">
+            <a href="Home.html">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">Products</a>
+            <button id="loginbutton">Login</button>
+            <button id="registerbutton" style="background-color: black; color: white;">Register</button>
+        </div>
+    </div>
+
+    <!-- Banner Section -->
+    <div class="header-empty" style="padding: 130px; ">
+    </div>
+    <div class="banner">
+        <h2 style="font-size: 80px;">Your Healthy Breakfast Products</h2>
+        <input type="text" class="searchInput" placeholder="Search products">
+        <button class="search" onclick="">Search</button>
+        <div class="imagess">
+            <img src="1074368-1-scaled.webp" id="left" alt="left">
+            <img src="1074382-1-scaled.webp" id="right" alt="right">
+        </div>
+       <span id="F">upto</span>
+       <span id="S">70%</span>
+    </div>
+    <!--Page3-->
+    <div class="page3">
+        <img src="1074354-1.webp" id="capsules" alt="image">
+        <span class="heading">
+            <h1>Wellness, Nutrition & Regimens </h1>
+            <p id="page3para">Wellness is a holistic approach to health that encompasses physical, mental, and emotional well-being. 
+                It is about living a healthy and balanced lifestyle that promotes overall well-being.</p>
+        </span>
+        <button class="ordernow" onclick="">Order Now</button>
+    </div>
+    <!--Section-4-->
+    <div class="products">
+        <div class="p1"><img src="1074368-1-scaled.webp"  alt="right">
+        <h3> Strawberry</h3>
+    <p>buy this products for healthy breakfast</p></div>
+        <div class="p1"><img src="1074382-1-scaled.webp"  alt="right">
+            <h3> Strawberry</h3>
+            <p>buy this products for healthy breakfast</p></div>
+        <div class="p1"><img src="1074341-1-scaled.webp"  alt="right">
+            <h3> Strawberry</h3>
+            <p>buy this products for healthy breakfast</p></div></div> 
+    </div>
+    <!---->
+    <div class="products2">
+        <div class="p1"><img src="1074354-1.webp"  alt="right">
+        <h3> Strawberry</h3>
+    <p>buy this products for healthy breakfast</p></div>
+        <div class="p1"><img src="1074360-1.webp"  alt="right">
+            <h3> Strawberry</h3>
+            <p>buy this products for healthy breakfast</p></div>
+        <div class="p1"><img src="1074368-1-scaled.webp"  alt="right">
+            <h3> Strawberry</h3>
+            <p>buy this products for healthy breakfast</p></div></div> 
+    </div>
+    <div class="viewmore">
+        <button id="viewmore" onclick="">view more</button>
+    </div>
+    <!--vendor-->
+    <div class="vendor">
+        <h1>Want to become a Vendor ?</h1>
+        <p> Join as a vendor <br>and sell your products in our platform</p>
+        <button id="register1">Register Now</button>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <table>
+            <tr>
+            <th>Product</a></th>
+            <th>Templates</a></th>
+            <th>Resources</a></th>
+            </tr>
+            <tr>
+                <td><a href="/"></a> Features</td>
+                <td><a href="/"></a> Blog</td>
+                <td><a href="/"></a> Updates</td>
+            </tr>
+            <tr>
+                <td><a href="/"></a> Learn</td>
+                <td><a href="/"></a> Personal</td>
+                <td><a href="/"></a> Community</td>
+            </tr>
+            <tr>
+                <td><a href="/"></a> Ayurvedic</td>
+                <td><a href="/"></a> Food Products</td>
+                <td><a href="/"></a> Healthy</td>
+            </tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr>
+                <td></td>
+                <td>All rights are reserved 2023</td>
+            </tr>
+        </table>
+    </div>
+    <!--Script-->
+    <script>
+        document.getElementById("loginbutton",).addEventListener("click",redirect)
+        document.getElementById("register1",).addEventListener("click",redirect)
+        document.getElementById("registerbutton",).addEventListener("click",redirect)
+        function redirect()
+        {
+            window.location="Account.html";
+        }
+    </script>
+</body>
+</html>
