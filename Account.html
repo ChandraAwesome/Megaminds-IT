@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register</title>
+    <style>
+        /* Add your styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .toggle-container {
+            margin: 20px;
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+            background-color: #ddd;
+            border-radius: 20px;
+            padding: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .toggle-btn {
+            flex: 1;
+            padding: 10px;
+            border-radius: 20px;
+            color: white;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        #loginBtn.active {
+            background-color:black;
+        }
+
+        #registerBtn.active {
+            background-color: #000200;
+        }
+
+        .page {
+            display: none;
+        }
+
+        .page.active {
+            display: block;
+        }
+        iframe
+        {
+            width: 100%;
+            height: 300px
+         
+        }
+        .logo-image img
+        {
+            width: 350px;
+            height: 300px;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-image">
+        <img src="nuturmite_logo_tranparent.webp" alt="logo">
+    </div>
+    <!-- Toggle Switch -->
+    <div class="toggle-container">
+        <div id="loginBtn" class="toggle-btn active" onclick="togglePage('login')">Login</div>
+        <div id="registerBtn" class="toggle-btn" onclick="togglePage('register')">Register</div>
+    </div>
+
+    <!-- Login Page -->
+    <div class="page active" id="loginPage">
+        <iframe src="Login.html"></iframe>
+        </div>
+    </div>
+
+    <!-- Register Page -->
+    <div class="page" id="registerPage">
+        <iframe src="Register.html" style="height:600px ;"></iframe>
+    </div>
+
+    <script>
+        function togglePage(page) {
+            // Toggle active class on buttons
+            var buttons = document.querySelectorAll('.toggle-btn');
+            buttons.forEach(function (btn) {
+                btn.classList.remove('active');
+            });
+
+            document.getElementById(page + 'Btn').classList.add('active');
+
+            // Show the selected page
+            var pages = document.querySelectorAll('.page');
+            pages.forEach(function (p) {
+                p.classList.remove('active');
+            });
+
+            document.getElementById(page + 'Page').classList.add('active');
+        }
+    </script>
+
+</body>
+</html>

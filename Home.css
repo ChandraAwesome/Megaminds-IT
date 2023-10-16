@@ -1,0 +1,223 @@
+.header {
+    background-color: black;
+  
+
+}
+body { border: 20%;}
+img{
+    height:250px;
+    width: 280px;
+}
+.logo {
+    float: left;
+    padding-left: 20px;
+}
+.menu {
+    
+   float: right;
+    padding-right:30px ;
+    padding-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 15px;
+    color: darkgray;
+    font-size: 20px;
+}
+.menu button
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.banner
+{
+    text-align: center;
+    font-size: 30px;
+    background-image : linear-gradient(aqua,white); 
+    padding: 30px;
+    font-family: aboreto;
+}
+.searchInput
+{
+    border-radius: 8px;
+width: 500px;
+height: 50px;
+
+}
+.search
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 8px;
+    height:52px;
+    width: 90px;
+    font-size: 16px;
+    border-color: transparent;
+    background-color: black;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.imagess img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+  margin-top: 20px;
+}
+#left
+{
+    float: left;
+}
+#right
+{
+    float:right;
+}
+span { vertical-align: middle;
+padding-top: 200px;}
+#F
+{
+font-size: 100px;
+}
+#S
+{
+    font-size: 200px;
+}
+
+#capsules
+{
+ float: right;
+ width: 400px;
+ height: 400px;
+}
+.heading h1
+{
+  font-size: 80px;
+  font-family: aboreto;
+  font-weight: 100;
+  text-align: left;
+}
+.heading p
+{
+    font-size: 25px;
+    width:50%;
+}
+.ordernow
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    padding: 10px 15px 10px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-color: transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.page3
+{
+    margin :50px;
+}
+* { box-sizing: border-box;
+content: res;}
+.p1
+{
+    float: left;
+    width: auto;
+    padding-left: 10%;
+}
+.products img,.products2 img
+{
+    border-radius: 30px;
+}
+.products ::after
+{
+content: "";
+clear: both;
+display: table;
+}
+.products
+{
+    margin-top: 15%;
+}
+.p1 h3, .p1 p
+{
+    text-align: center;
+}
+.viewmore
+{
+align-items: center;
+    width: auto;
+    padding-left:46%;
+    padding-top: 48%;
+}
+#viewmore
+{
+    padding: 8px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border-color: transparent;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.vendor 
+{
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#register1
+{
+    padding: 8px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border-color: transparent;
+    font-size: 20px;
+    padding:15px 30px 15px 30px;
+    cursor: pointer;
+}
+.footer
+{
+    padding-top: 20px;
+}
+ table
+ {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: black;
+ }
+td
+{
+    text-align: center;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+
+}
+th
+{
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    font-size: 20px;
+    text-decoration: none;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        header
+        {
+            text-align: center;
+            font-size: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        body
+        {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        form {
+            border:3px solid gainsboro;
+            padding: 10px;
+            align-items: center;
+            border-radius: 10px;
+        }
+
+        input[type=text],input[type=password]
+        {
+            width: 100%;
+            padding: 12px 12px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid black;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+        span.psw
+        {
+            float:right;
+        }
+        .check
+        {
+            padding-top: 5px;
+        }
+        button
+        {
+            background-color: black;
+            color: white;
+            padding: 12px;
+            width: 16%;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            cursor: pointer;
+        } 
+    </style>
+</head>
+<body>
+    <form>
+    <div class="Login_page">
+        <label for="Uname"><b>Username</b></label>
+        <input type="text" id="login" placeholder="Enter email or Username" required>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" id="password" required>
+        
+        <button type="submit">Login</button>
+        <div class="check">
+        <label>
+            <input type="checkbox" checked="checked">Remember me
+        </label>
+        <span class="psw"><a href="#" style="text-decoration: none;">Forgot Password</a></span>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
